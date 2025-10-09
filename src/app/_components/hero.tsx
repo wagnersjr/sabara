@@ -41,12 +41,14 @@ export function Hero() {
               href={`https://wa.me/5521981062487?text=Olá vim pelo site e gostaria de mais informações`}
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
             >
-              <WhatsappLogo className="w-5 h-5" /> Contato via WhatsApp
+              <WhatsappLogo className="w-5 h-5" />
+              Contato via WhatsApp
             </a>
 
             <div className="mt-8">
               <p className="text-sm mb-4">
-               O Detetive Profissional pode trabalhar em todo o território nacional, com o amparo da Lei Federal 13.432/17.
+                O Detetive Profissional pode trabalhar em todo o território
+                nacional, com o amparo da Lei Federal 13.432/17.
               </p>
 
               <div className="flex mt-4">

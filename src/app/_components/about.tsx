@@ -53,15 +53,17 @@ export function About() {
               a Justiça. Formado, você poderá realizar levantamentos de
               endereços, dossiês, rastreamento de patrimônios, veículos,
               empresas e muito mais. Muitos trabalhos podem ser feitos online,
-              sem sair de casa, com remuneração de R$500,00 a R$100.000 reais, ou seja não tem limite de ganhos.
-              Dependendo do contrato de dias, semanas ou meses de trabalho acertado com o contratante. Ser detetive significa ter uma renda
-              constante e ser um aliado importante de advogados, fornecendo
-              informações estratégicas que fortalecem processos. Também ajuda
-              famílias, como mães em busca de pensão alimentícia ou pessoas em
-              busca de justiça. O melhor: o Detetive Profissional atua em todo o
-              Brasil, sem limitações geográficas. Descubra uma carreira
-              promissora, rentável e cheia de propósito. Aprenda com quem
-              entende do assunto, são 21 anos de Experiência. Transforme sua vida hoje mesmo!
+              sem sair de casa, com remuneração de R$500,00 a R$100.000 reais,
+              ou seja não tem limite de ganhos. Dependendo do contrato de dias,
+              semanas ou meses de trabalho acertado com o contratante. Ser
+              detetive significa ter uma renda constante e ser um aliado
+              importante de advogados, fornecendo informações estratégicas que
+              fortalecem processos. Também ajuda famílias, como mães em busca de
+              pensão alimentícia ou pessoas em busca de justiça. O melhor: o
+              Detetive Profissional atua em todo o Brasil, sem limitações
+              geográficas. Descubra uma carreira promissora, rentável e cheia de
+              propósito. Aprenda com quem entende do assunto, são 21 anos de
+              Experiência. Transforme sua vida hoje mesmo!
             </p>
 
             <ul className="space-y-4">
@@ -83,24 +85,24 @@ export function About() {
               </li> */}
             </ul>
 
-            <div className="flex gap-2">
+            <div className="flex items-center justify-center gap-2 sm:gap-3">
               <a
                 target="_blank"
-                href={`https://wa.me/5521981062487?text=Olá vim pelo site e gostaria de mais informações!`}
-                className="bg-green-500 text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
+                href="https://wa.me/5521981062487?text=Olá vim pelo site e gostaria de mais informações!"
+                className="bg-green-500 text-white flex items-center justify-center gap-1.5 sm:gap-2 px-2.5 sm:px-4 py-2 sm:py-2 rounded-md whitespace-nowrap text-xs sm:text-sm md:text-base transition-all"
               >
-                <WhatsappLogo className="w-5 h-5 text-white" />
-                Contato via Whatsapp
+                <WhatsappLogo className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
+                Contato via WhatsApp
               </a>
 
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=seuemail@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" text-black flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
+                className="bg-[#E84C3D] text-white flex items-center justify-center gap-1.5 sm:gap-2 px-2.5 sm:px-4 py-2 sm:py-2 rounded-md whitespace-nowrap text-xs sm:text-sm md:text-base transition-all"
               >
-                <EnvelopeIcon className="w-5 h-5 text-black" />
-                Endereço de Email
+                <EnvelopeIcon className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
+                Contato via Email
               </a>
             </div>
           </div>
