@@ -55,7 +55,7 @@ export function Hero() {
                 <div className="w-32 mb-8 hidden lg:block">
                   <Image
                     src={catImg}
-                    alt="foto do gato"
+                    alt="photo-detetive"
                     quality={100}
                     className="object-fill"
                     data-aos="fade-left"
@@ -68,7 +68,7 @@ export function Hero() {
           <div className="hidden md:block h-full relative">
             <Image
               src={dogImg}
-              alt="Foto do cachorro"
+              alt="photo-detetive"
               className="object-contain"
               fill
               sizes="(max-width:768px) 0vw, 50vw"
