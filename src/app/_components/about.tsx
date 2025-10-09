@@ -7,7 +7,7 @@ import { EnvelopeIcon } from "@phosphor-icons/react/dist/ssr";
 
 export function About() {
   return (
-    <section className="bg-[#FDF6EC] py-16">
+    <section className="bg-[#faf4eb] py-16">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div
@@ -61,13 +61,13 @@ export function About() {
               busca de justiça. O melhor: o Detetive Profissional atua em todo o
               Brasil, sem limitações geográficas. Descubra uma carreira
               promissora, rentável e cheia de propósito. Aprenda com quem
-              entende do assunto e transforme sua vida hoje mesmo!
+              entende do assunto, são 21 anos de Experiência. Transforme sua vida hoje mesmo!
             </p>
 
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
-                Experiência desde 2015 com conhecimento na área
+                Experiência desde 2005 com conhecimento na área
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
@@ -100,7 +100,7 @@ export function About() {
                 className=" text-black flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
               >
                 <EnvelopeIcon className="w-5 h-5 text-black" />
-                Endereço da Email
+                Endereço de Email
               </a>
             </div>
           </div>

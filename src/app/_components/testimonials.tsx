@@ -10,17 +10,17 @@ import Image from "next/image";
 const testimonials = [
   {
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur!",
+      "Agradeço ao professor Francimar, que me ajudou a realizar um grande sonho. Sempre busquei crescer profissionalmente e aprendi que investir na minha área de atuação não é um gasto, e sim um investimento! É algo para o crescimento. O Detetive Nascimento é um excelente professor, que me auxiliou bastante mesmo à distância, pois completei meu curso de forma remota. Mesmo assim, ele sempre respondeu todas as minhas dúvidas pelo WhatsApp e por videochamadas, dedicando atenção aos mínimos detalhes nas questões que eu tinha.",
     author: "Mariana Souza",
-    role: "Aluna formada em 2021",
-    image: tutor2,
+    role: "Aluno formada em 2024",
+    image: tutor1,
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur!",
     author: "Rafael Oliveira",
     role: "Aluno formado em 2023",
-    image: tutor1,
+    image: tutor2,
   },
   {
     content:

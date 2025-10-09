@@ -10,10 +10,10 @@ export function Footer() {
         <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
           <div>
             <h3 className="text-2xl font-semibold mb-2">
-              Curso de Detetive profissional
+              Curso de Detetive profissional.
             </h3>
             <p className="mb-4">
-              Formando detetives de verdade, com propósito e Lei.
+              21 Anos de Experiência. Formando detetives de verdade, com propósito e Lei.
             </p>
             <a
               href={`https://wa.me/5521981062487?text=Olá vim pelo site e gostaria de mais informações!`}
@@ -32,12 +32,12 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
+            <h3 className="text-2xl font-semibold mb-2">Instagram</h3>
             <div className="flex gap-2">
-              <a href="#" target="_blank">
+              {/* <a href="#" target="_blank">
                 <FacebookLogo className="w-8 h-8" />
-              </a>
-              <a href="#" target="_blank">
+              </a> */}
+              <a href="https://www.instagram.com/det.perito.nascimento" target="_blank">
                 <InstagramLogo className="w-8 h-8" />
               </a>
             </div>
