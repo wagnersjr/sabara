@@ -1,13 +1,13 @@
 import Image from "next/image";
 import about1Img from "../../../public/about-1.png";
-import about2Img from "../../../public/about-2.png";
+import about2Img from "../../../public/about-4.png";
 import { Check } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { EnvelopeIcon } from "@phosphor-icons/react/dist/ssr";
 
 export function About() {
   return (
-    <section className="bg-[#faf4eb] py-16">
+    <section className="bg-[#ffffffec] py-16">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div
