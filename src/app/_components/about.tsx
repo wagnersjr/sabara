@@ -73,38 +73,16 @@ export function About() {
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
-                Aulas 100% Presenciais
+                Aulas Presenciais
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
                 EAD- Ensino a Distância
               </li>
-              {/* <li className="flex items-center gap-2">
-                <Check className="text-red-500" />
-                Experiência e conhecimento na área
-              </li> */}
+              
             </ul>
 
-            <div className="flex items-center justify-center gap-2 sm:gap-3">
-              <a
-                target="_blank"
-                href="https://wa.me/5521981062487?text=Olá vim pelo site e gostaria de mais informações!"
-                className="bg-green-500 text-white flex items-center justify-center gap-1.5 sm:gap-2 px-2.5 sm:px-4 py-2 sm:py-2 rounded-md whitespace-nowrap text-xs sm:text-sm md:text-base transition-all"
-              >
-                <WhatsappLogo className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
-                Contato via WhatsApp
-              </a>
-
-              <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=seuemail@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#E84C3D] text-white flex items-center justify-center gap-1.5 sm:gap-2 px-2.5 sm:px-4 py-2 sm:py-2 rounded-md whitespace-nowrap text-xs sm:text-sm md:text-base transition-all"
-              >
-                <EnvelopeIcon className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
-                Contato via Email
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
