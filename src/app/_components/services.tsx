@@ -1,4 +1,3 @@
-
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
@@ -67,7 +66,11 @@ export function Services() {
 
   return (
     <section>
-      <div className="bg-white py-16">
+      <div
+        className="bg-gradient-to-l from-slate-50 to-slate-50 py-8 md:py-16"
+        // data-aos="fade-up-right"
+        // data-aos-delay="50"
+      >
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12">Destaques:</h2>
 
@@ -107,7 +110,6 @@ export function Services() {
                         </a>
                       </div>
                     </article>
-                    
                   </div>
                 ))}
               </div>

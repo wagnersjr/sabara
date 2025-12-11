@@ -11,16 +11,18 @@ export function Hero() {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <section className="bg-[#0A0A0A] text-white relative overflow-hidden">
+    <section className="bg-[#0e0d14] text-white relative overflow-hidden">
       <div>
         <Image
+
+          // data-aos="fade-up"
           src={fotoDetetive}
           alt="background-image"
           fill
           quality={100}
           sizes="100vw"
           priority
-          className="object-cover opacity-45 lg:hidden"
+          className="object-cover opacity-45 lg:hidden "
         />
       </div>
 
@@ -52,35 +54,50 @@ export function Hero() {
             data-aos="fade-down"
             data-aos-delay="1"
           >
-            <a href="#curso" className="hover:opacity-70">Curso</a>
-            <a href="#certificacao" className="hover:opacity-70">Certificação</a>
-            <a href="#contato" className="hover:opacity-70">Contato</a>
+            <a href="#curso" className="hover:opacity-70">
+              Curso
+            </a>
+            <a href="#certificacao" className="hover:opacity-70">
+              Certificação
+            </a>
+            <a href="#contato" className="hover:opacity-70">
+              Contato
+            </a>
           </nav>
 
           <button
             onClick={() => setOpenMenu(!openMenu)}
             className="flex flex-col gap-1 md:hidden z-50"
           >
-            <span className="w-6 h-[2px] bg-white"></span>
-            <span className="w-6 h-[2px] bg-white"></span>
-            <span className="w-6 h-[2px] bg-white"></span>
+            <a className="w-6 h-[2px] bg-white"></a>
+            <a className="w-6 h-[2px] bg-white"></a>
+            <a className="w-6 h-[2px] bg-white"></a>
           </button>
         </header>
 
-       
         <div
           className={`
             md:hidden absolute right-4 top-20
             bg-black/90 backdrop-blur-sm
             rounded-md shadow-lg
             transition-all duration-300 overflow-hidden z-40
-            ${openMenu ? "opacity-100 max-h-40 py-4 px-6" : "opacity-0 max-h-0 py-0 px-6"}
+            ${
+              openMenu
+                ? "opacity-100 max-h-40 py-4 px-6"
+                : "opacity-0 max-h-0 py-0 px-6"
+            }
           `}
         >
           <nav className="flex flex-col gap-4 text-white font-semibold">
-            <a href="#curso" onClick={() => setOpenMenu(false)}>Curso</a>
-            <a href="#certificacao" onClick={() => setOpenMenu(false)}>Certificação</a>
-            <a href="#contato" onClick={() => setOpenMenu(false)}>Contato</a>
+            <a href="#curso" onClick={() => setOpenMenu(false)}>
+              Curso
+            </a>
+            <a href="#certificacao" onClick={() => setOpenMenu(false)}>
+              Certificação
+            </a>
+            <a href="#contato" onClick={() => setOpenMenu(false)}>
+              Contato
+            </a>
           </nav>
         </div>
 
@@ -94,7 +111,8 @@ export function Hero() {
             </h1>
 
             <p className="lg:text-lg font-semibold" data-aos="fade-right">
-              Torne-se um Detetive Profissional com uma Formação de Referência no Brasil
+              Torne-se um Detetive Profissional com uma Formação de Referência
+              no Brasil
             </p>
 
             <a
@@ -114,7 +132,8 @@ export function Hero() {
                 data-aos="fade-up"
                 data-aos-delay="900"
               >
-                O Detetive Profissional pode trabalhar em todo o território nacional, com o amparo da Lei Federal 13.432/17.
+                O Detetive Profissional pode trabalhar em todo o território
+                nacional, com o amparo da Lei Federal 13.432/17.
               </p>
             </div>
           </div>

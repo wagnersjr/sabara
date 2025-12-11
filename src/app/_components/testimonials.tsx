@@ -3,8 +3,8 @@
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { WhatsappLogo, MagnifyingGlass } from "@phosphor-icons/react";
-import tutor1 from "../../../public/tutor1.png"
-import tutor2 from "../../../public/tutor2.png"
+import tutor1 from "../../../public/tutor1.png";
+import tutor2 from "../../../public/tutor2.png";
 import Image from "next/image";
 
 const testimonials = [
@@ -12,19 +12,19 @@ const testimonials = [
     content:
       "Agradeço ao professor Francimar, que me ajudou a realizar um grande sonho. Sempre busquei crescer profissionalmente e aprendi que investir na minha área de atuação não é um gasto, e sim um investimento! É algo para o crescimento. O Detetive Nascimento é um excelente professor, que me auxiliou bastante mesmo à distância, pois completei meu curso de forma remota. Mesmo assim, ele sempre respondeu todas as minhas dúvidas pelo WhatsApp e por videochamadas, dedicando atenção aos mínimos detalhes nas questões que eu tinha.",
     author: "Mariana Souza",
-    role: "Aluno formada em 2024",
+    role: "Aluna formada em 2024",
     image: tutor1,
   },
   {
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur!",
     author: "Rafael Oliveira",
     role: "Aluno formado em 2023",
     image: tutor2,
   },
   {
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptate molestias soluta possimus vel excepturi veniam error, incidunt ea vitae necessitatibus numquam sint praesentium explicabo provident deleniti ducimus pariatur!",
     author: "Jonathan Silva",
     role: "Aluno formado em 2025",
     image: tutor1,
@@ -57,26 +57,24 @@ export function Testimonials() {
               <div className="flex">
                 {testimonials.map((item, index) => (
                   <div key={index} className="flex-[0_0_100%] min-w-0  px-3">
-                    <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
-                        <div className="flex flex-col items-center text-center space-y-4">
-                            <div className="relative w-24 h-24">
-                                <Image
-                                src={item.image}
-                                alt={item.author}
-                                fill
-                                sizes="96px"
-                                className="object-cover rounded-full"
-                                />
-                            </div>
-                            <p className="test-gray-200">{item.content}</p>
-
-                            <div> 
-                                 
-                            <p className="font-bold">{item.author}</p>
-                            <p className="text-sm text-gray-400">{item.role}</p>
-
-                            </div>
+                    <article className="bg-[#1e1f28] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                      <div className="flex flex-col items-center text-center space-y-4">
+                        <div className="relative w-24 h-24">
+                          <Image
+                            src={item.image}
+                            alt={item.author}
+                            fill
+                            sizes="96px"
+                            className="object-cover rounded-full"
+                          />
                         </div>
+                        <p className="test-gray-200">{item.content}</p>
+
+                        <div>
+                          <p className="font-bold">{item.author}</p>
+                          <p className="text-sm text-gray-400">{item.role}</p>
+                        </div>
+                      </div>
                     </article>
                   </div>
                 ))}
