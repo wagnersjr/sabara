@@ -1,10 +1,8 @@
 import Image from "next/image";
-import about1Img from "../../../public/about-1.png";
-import about2Img from "../../../public/about-4.png";
-import { Check } from "lucide-react";
-import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
-import { EnvelopeIcon } from "@phosphor-icons/react/dist/ssr";
+import salaDeAula from "../../../public/about-1.png";
 
+import { Check } from "lucide-react";
+import logoImg2 from "../../../public/logo2.png";
 export function About() {
   return (
     <section className="bg-[#ffffffec] py-16">
@@ -17,8 +15,8 @@ export function About() {
           >
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
-                src={about1Img}
-                alt="photo-detetive"
+                src={salaDeAula}
+                alt="sala-de-aula"
                 fill
                 quality={100}
                 className="object-cover hover:scale-110 duration-300"
@@ -28,7 +26,7 @@ export function About() {
 
             <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 overflow-hidden rounded-lg border-white">
               <Image
-                src={about2Img}
+                src={logoImg2}
                 alt="photo-detetive-2"
                 fill
                 quality={100}
@@ -46,7 +44,7 @@ export function About() {
               Sobre o Curso de Detetive Profissional:
             </h2>
 
-            <p>
+             <p className="text-lg leading-relaxed max-w-2xl">
               O Detetive Profissional é especialista em descobrir a verdade e
               reunir informações com precisão e sigilo. Mais que investigação, é
               uma carreira cheia de oportunidades, ajudando pessoas, empresas e
@@ -67,15 +65,15 @@ export function About() {
             </p>
 
             <ul className="space-y-4">
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 font-semibold">
                 <Check className="text-red-500" />
                 Experiência desde 2005 com conhecimento na área
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 font-semibold">
                 <Check className="text-red-500" />
                 Aulas Presenciais
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 font-semibold">
                 <Check className="text-red-500" />
                 EAD- Ensino a Distância
               </li>
