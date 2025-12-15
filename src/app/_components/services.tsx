@@ -9,40 +9,25 @@ const services = [
     title: "Atuação Nacional Amparada por Lei",
     description:
       "O Detetive Profissional depois de formado pode atuar em todo o território brasileiro, com respaldo total da Lei Federal nº 13.432/17, que reconhece e protege o exercício da profissão. Liberdade e segurança para trabalhar em qualquer estado do país.",
-    // duration: "Atuação legal em todo o Brasil.",
-    // price: "$50",
-    // icon: <Scissors />,
-    // linkText:
-    //   "Olá, vi no site sobre Banho e tosa e gostaria de mais informações.",
+
   },
   {
     title: "Diversas Áreas de Investigação",
     description:
       "Atue em investigações criminais, localizações de pessoas, dossiês patrimoniais, levantamento de endereços, empresas e veículos. Muitos serviços podem ser feitos sem sair de casa, com alta demanda e bons lucros.",
-    // duration: "1h",
-    // price: "$50",
-    // icon: <Syringe />,
-    // linkText:
-    //   "Olá, vi no site sobre Consulta veterinária e gostaria de mais informações.",
+
   },
   {
     title: "Apoio Jurídico e Social",
     description:
       "O Detetive Profissional é um grande aliado de advogados e famílias, auxiliando na busca por provas, localização de devedores, estelionatários e pessoas desaparecidas. Uma profissão que une justiça, propósito e resultados.",
-    // duration: "2h",
-    // price: "$80",
-    // // icon: <CarTaxiFront />,
-    // linkText: "Olá, vi no site sobre Táxi Pet e gostaria de mais informações.",
+
   },
   {
     title: "Renda Ilimitada e Oportunidades Reais",
     description:
       "Os ganhos variam de R$ 500.00 a R$ 100.000, pois tudo dependerá do ato assertivo entre o profissional e o cliente, finalizando a demanda proposta. desde levantamentos simples até grandes operações - o limite é o seu empenho e especialização. uma carreira com retorno financeiro constante e crescente.",
-    // duration: "1h",
-    // price: "$60",
-    // // icon: <Hotel />,
-    // linkText:
-    //   "Olá, vi no site sobre Hotel para pets e gostaria de mais informações.",
+
   },
 ];
 
@@ -68,8 +53,8 @@ export function Services() {
     <section>
       <div
         className="bg-gradient-to-l from-slate-50 to-slate-50 py-8 md:py-16"
-        // data-aos="fade-up-right"
-        // data-aos-delay="50"
+        data-aos="fade-up-right"
+        data-aos-delay="50"
       >
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12">Destaques:</h2>
@@ -102,7 +87,7 @@ export function Services() {
 
                         <a
                           target="_blank"
-                          href={`https://wa.me/5521981062487?text=Olá vim pelo site e gostaria de mais informações!`}
+                          href={`https://wa.me/5521981062487?text=Olá vim pelo site e gostaria de mais informações sobre o curso de detetive profissional.`}
                           className="flex items-center justify-center gap-2 hover:bg-green-500 px-4 py-1 rounded-md duration-300"
                         >
                           <WhatsappLogo className="w-5 h-5" />
