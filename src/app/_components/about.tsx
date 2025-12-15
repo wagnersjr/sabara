@@ -1,5 +1,5 @@
 import Image from "next/image";
-import salaDeAula from "../../../public/about-1.png";
+import salaDeAula3 from "../../../public/saladeaula3.png";
 import salaDeAula2 from "../../../public/saladeaula2.jpg";
 import bg from "../../../public/bg.jpg";
 
@@ -8,11 +8,11 @@ import logoImg2 from "../../../public/logo2.png";
 export function About() {
   return (
     <section
-      className="relative py-16 bg-center bg-no-repeat bg-cover"
+      className="relative py-7 bg-center bg-no-repeat bg-cover"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       {/* Overlay para escurecer o fundo */}
-      <div className="absolute inset-0 bg-black/40 backdrop-brightness-40"></div>
+      <div className="absolute inset-0 bg-black/40 backdrop-brightness-55"></div>
 
       <div className="container px-4 mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -21,9 +21,9 @@ export function About() {
             data-aos="fade-up-right"
             data-aos-delay="400"
           >
-            <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
+            <div className="relative w-full h-[400px] rounded-3xl overflow-hidden pointer-events-none select-none">
               <Image
-                src={salaDeAula2}
+                src={salaDeAula3}
                 alt="sala-de-aula"
                 fill
                 quality={100}
@@ -32,13 +32,16 @@ export function About() {
               />
             </div>
 
-            <div className="absolute w-40 h-40 right-3 -bottom-8 border-1 overflow-hidden rounded-lg ">
+            <div className="absolute w-40 h-40 right-3 -bottom-8 border-1 overflow-hidden rounded-lg pointer-events-none select-none">
               <Image
                 src={logoImg2}
                 alt="photo-detetive-2"
                 fill
                 quality={100}
                 priority
+
+                
+                
               />
             </div>
           </div>
@@ -52,9 +55,13 @@ export function About() {
               Sobre o Curso de Detetive Profissional:
             </h2>
 
-            <p className="text-lg leading-relaxed max-w-2xl">
-              O Detetive Profissional é especialista em descobrir a verdade e
-              reunir informações com precisão e sigilo...
+            <p className="text-base md:text-lg leading-snug md:leading-relaxed max-w-2xl">
+              O{" "}
+              <span className="font-bold text-yellow-400">
+                Detetive Profissional
+              </span>{" "}
+              é especialista em descobrir a verdade e reunir informações com
+              precisão e sigilo.
             </p>
 
             <ul className="space-y-4">

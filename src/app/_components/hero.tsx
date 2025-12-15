@@ -14,7 +14,6 @@ export function Hero() {
     <section className="bg-[#0e0d14] text-white relative overflow-hidden">
       <div>
         <Image
-
           // data-aos="fade-up"
           src={fotoDetetive}
           alt="background-image"
@@ -46,6 +45,8 @@ export function Hero() {
                 sm:w-[110px]
                 md:w-[90px]
               "
+              draggable={false}
+              onContextMenu={(e) => e.preventDefault()}
             />
           </div>
 
@@ -138,7 +139,7 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="hidden md:block h-full relative">
+          <div className="hidden md:block h-full relative pointer-events-none select-none">
             <Image
               data-aos="fade-up"
               data-aos-delay="1"
